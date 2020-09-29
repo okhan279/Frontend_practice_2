@@ -1,4 +1,4 @@
-# Frontend_practice_2
+# Frontend_practice_2.
 
 This repository contains HTML and CSS source code for me to practice and better understand these frontend languages.
 
