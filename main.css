@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+    padding-bottom: .1px;
+    padding-top: 5px;
+    width: 80%;
+    position: relative;
+    left: 109px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-family: "Courier New";
+    background-color: white;
+    border-left: 1px solid grey; 
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.outside-border { /* Containes the outside border for the <main> section */
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 100%;
+    position: relative;
+    right: 1px;
+    bottom: 1px; /* Moves the left and right border upwards to eliminate the gap between the <header> border and <main> border */
+}
+
+.container { /* edits the 'Note: Please Complete the following application form' */
+    position: relative;
+    right: 230px;
+}
+
+main {
+    background-color: white;
+    border-top: .1px solid white; /* Fills in the small gap between the <header> and <main> */
+    width: 80%;
+    position: relative;
+    left: 110px;
+    padding-bottom: 10px;
+}
+
+.box-area-1 { /* Edits the properties of the inner border of the 'Personal Details' section */
+    border: 1px solid grey;
+    position: relative;
+    width: 95%;
+    left: 22px;
+    height: 370px;
+    padding-bottom: 5px;
+} 
+
+.box-1 { /* Contains properties to alter the 'Personal Details' section */
+    position: relative;
+    left: 30px;
+    font-family: Anaheim;
+}
+
+.personal-details { /* This container targets only the 'Personal Details' heading */
+    position: relative;
+    left: 30px;
+}
+
+.education-container { 
+    width: 95%;
+    position: relative;
+    left: 22px;
+    padding-top: .1px;
+    border: 1px solid grey;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.education-text { /* Contains properties to alter the text in the education box */
+    position: relative;
+    top: 10px;
+    left: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.education-checkbox { /* Contains properties to alter the checkboxes in the education box */
+    position: relative;
+    top: 12px;
+    left: 47px;
+}
+
+.education-container-text { /* Contains the properties to alter the outline of the border in the education section */
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 105.2%;
+    height: 200px;
+    position: relative;
+    right: 24px;
+    bottom: 28px;
+}
+
+.ethnicity-container { /* Contains properties of the inner border */
+    border: 1px solid grey;
+    width: 95%;
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 10px;
+    position: relative;
+    left: 23px;
+}
+
+.ethnicity-title { /* Alters the properties of only the 'Ethnicity' title */
+    position: relative;
+    left: 27px;
+}
+
+.ethnicity-options { /* Alters the properties of the ethnicity drop down box */
+    position: relative;
+    left: 30px;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    width: 80%;
+    position: relative;
+    left: 110px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.footer-container {  /* Edits the inner border of the footer container  */
+    border: 1px solid grey;
+    width: 95%;
+    position: relative;
+    left: 23px;
+    height: 660px;
+}
+
+.footer-border { /* Edits the outside border of the footer container */
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 105.2%;
+    height: 47.4em;
+    position: relative;
+    right: 25px;
+    bottom: 50px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.footer-container-text { /* Edits the text contained inside the footer container */
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.submit { /* Contains properties to edit the 'Apply' button */
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 415px;
+    top: 13px;
+    height: 40px;
+    width: 200px;
+}
